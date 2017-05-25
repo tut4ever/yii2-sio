@@ -6,7 +6,7 @@
  * Time: 10:45 AM
  */
 
-namespace vuquangthinh\yii2\sio;
+namespace quangthinh\yii2\sio;
 
 use Yii;
 use yii\base\Behavior;
@@ -16,7 +16,7 @@ require __DIR__ . DIRECTORY_SEPARATOR . 'msgpack.php';
 
 /**
  * Class Emitter
- * @package common\sio
+ * @package vuquangthinh\yii2\sio
  */
 class IO extends Behavior
 {
@@ -102,6 +102,7 @@ class IO extends Behavior
 
 	/**
 	 * Check Flag
+     * @param string $flag
 	 * @return boolean
 	 */
 	public function is($flag) {

@@ -6,7 +6,7 @@
  * Time: 10:45 AM
  */
 
-namespace vuquangthinh\yii2\sio;
+namespace quangthinh\yii2\sio;
 
 use Yii;
 use yii\base\Component;

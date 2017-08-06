@@ -19,7 +19,7 @@ use yii\redis\Session;
  *
  * @method IO broadcast()
  * @method IO volatile()
- * @method IO emit(string $event, mixed $args ...)
+ * @method IO emit(string $event, mixed ... $args)
  * @method IO in(string $room)
  * @method IO to(string $room)
  * @method IO of(string $room)
